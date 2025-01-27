@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/tien365/All-script/refs/heads/main/ScriptNh%C3%A0L%C3%A0mV2.txt')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmod/refs/heads/main/zingmod')))()
 
 local Window = OrionLib:MakeWindow({Name = "All-Script", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
