@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
 local Window = OrionLib:MakeWindow({Name = "All-Script", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
-local Tab1 = Window:CreateTab({
+local Tab1 = WindowaMakeTab({
 	Name = "Scripts Mới",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
