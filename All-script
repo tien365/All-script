@@ -1,9 +1,5 @@
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tien365/All-script/refs/heads/main/All-script"))()
-
-local Window = OrionLib:MakeWindow({Name = 
-"All-Script", HidePremium = false, SaveConfig = 
-true, ConfigFolder = "dxl_bf"})
-
+local Window = OrionLib:MakeWindow({Name = "All-Script", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 local Tab1 = Window:MakeTab({
 	Name = "Scripts Mới",
 	Icon = "rbxassetid://4483345998",
@@ -45,7 +41,6 @@ Tab2:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
 end
 })
-
 Tab2:AddButton({
   Name ="Gạt Cần",
   CallBack =function()
@@ -55,7 +50,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/mai
 end
 })
 
-Tab2:addButton({
+Tab2:AddButton({
   Name ="Andepzai"
   CallBack =function()
         repeat wait(5) until game: IsLoaded() 
