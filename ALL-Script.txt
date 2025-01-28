@@ -14,6 +14,12 @@ local Tab3 = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Tab4 = Window:MakeTab({
+	Name = "Scripts Cần Key",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 Tab2:AddButton({
 	Name = "Xero",
 	Callback = function()
@@ -87,5 +93,14 @@ Tab3:AddButton({
 	Callback = function()
         repeat wait(5) until game:IsLoaded()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+end
+})
+
+Tab4:AddButton({
+	Name = "HoHo-Hub",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
 end
 })
