@@ -68,6 +68,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
 end
 })
 
+Tab2:AddButton({
+	Name = "AnDepZai",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
+end
+})
+
 Tab3:AddButton({
   Name = "Gạt Cần",
   CallBack = function()
